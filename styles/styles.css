@@ -1,0 +1,116 @@
+/* Задание 1  */
+
+.button-data-request{
+    background-color: #b1eb3d;
+    border-radius: 10px;
+    border: 1px solid rgb(234, 230, 242);
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.button-text{
+    color: rgb(27, 2, 81);
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.bi-arrow-down-left-circle-fill{
+    display: none;
+}
+
+
+/* Задание 2 */
+.button-screen-size{
+    background-color: #ebe03d;
+    border-radius: 10px;
+    border: 1px solid rgb(234, 230, 242);
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.button-text2{
+    color: rgb(42, 9, 113);
+    font-size: 20px;
+}
+.button-view-chat{
+    background-color: #f7a737;
+    border-radius: 10px;
+    border: 1px solid rgb(234, 230, 242);
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+/* Задание 3 */
+.chat-wrap{
+    background-color: rgb(242, 244, 248);
+    border: 3px solid rgb(210, 217, 255);
+    height: 50vh;
+    width: 40%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.chat-input-form{
+    justify-content: space-between;
+    display: flex;
+    padding: 7px 7px 0px;
+    
+}
+.chat-user-input{
+    width: 50%;
+    height: 3vh;
+    border-radius: 5px;
+    border: 2px solid rgb(210, 217, 255);
+}
+.button-chat-text{
+    font-size: 12px;
+    color: rgb(6, 6, 77);
+}
+.button-chat-send,
+.button-chat-geo{
+    width: 23%;
+    background-color:rgb(152, 182, 242);
+    border: none;
+    height: 3.5vh;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.chat-conversation-window{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(210, 217, 255);
+    border-radius: 6px;
+    margin: 7px;
+    height: 37vh;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+.user-output,
+.echo-output{
+    padding: 4px;
+    margin: 4px;
+    max-width: 60%;
+    border-radius: 5px;
+}
+.user-output{
+    border: 2px solid rgb(210, 217, 255);
+    align-self: flex-end;
+}
+.echo-output{
+    border: 2px solid rgb(218, 218, 218);
+    align-self: flex-start;
+
+}
+.button-clear-chat{
+    border: none;
+    background-color: rgb(178, 150, 248);
+    height: 3.5vh;
+    border-radius: 3px;
+    width: 23%;
+    position: absolute;
+    right: 7px;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>HW-04 - API - Задание 3</title>
+</head>
+
+<body>
+
+    <h2> Задание 3 - Чат </h2>
+    <div class="chat-wrap">
+        <form class="chat-input-form">
+            <input class="chat-user-input" id="user-input" type="text" placeholder="Введите сообщение">
+            <button class="button-chat-send">
+                <div class="button-chat-text">Отправить</div>
+            </button>
+            <button class="button-chat-geo">
+                <div class="button-chat-text">Гео-локация</div>
+            </button>
+        </form>
+        <div class="chat-conversation-window">
+            <!-- <div class="user-output" id="geo-user-input"> -->
+                <p id="geo-status"></p>
+                <a id="map-link" target="_blank"></a>
+            <!-- </div> -->
+        </div>
+        <button class="button-clear-chat">
+            <div class="button-clear-text">Очистить чат</div>
+        </button>
+    </div>
+    
+    <a href="index.html">
+        <button class="button-view-chat">
+            <div class="button-text2">Назад</div>
+        </button>
+    </a>
+
+    <script src="chat.js"></script>
+
+</body>
+
+</html>
